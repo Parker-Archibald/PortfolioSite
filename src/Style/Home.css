@@ -1,0 +1,45 @@
+#btn {
+    margin-left: -1300px;
+    margin-top: 220px;
+    opacity: 0;
+    animation: btnFade 3s steps(35, end) forwards;
+    animation-delay: 4.5s;
+}
+
+#projectsBtn {
+    margin-left: -1100px;
+    margin-top: 115px;
+}
+
+@keyframes btnFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes btnFade1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #btn{margin-left: -460px;}
+    #projectsBtn{margin-left: -250px;}
+}
+@media only screen and (max-width: 700px) {
+    #btn{
+        margin-left: -880px;
+        margin-top: 580px;
+    } 
+    #projectsBtn{
+        margin-left: -450px;
+        margin-top: 580px
+    }
+}

@@ -1,0 +1,191 @@
+div {
+  color: white;
+  text-emphasis: center;
+}
+
+.highlight {
+  color: blue;
+  font-weight: 700;
+}
+
+.nums {
+  text-indent: -450px;
+  font-size: 20px;
+}
+
+#code {
+  margin-top: 50px;
+}
+
+#typeWriter {
+  /* font-size: 20px; */
+  text-indent: 36px;
+  font-family: "Courier";
+  overflow: hidden;
+  width: 27em;
+  -webkit-animation: type 2s steps(35, end);
+  animation: type 2s steps(35, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+#typeWriter2 {
+    /* font-size: 20px; */
+    text-indent: 35px;
+    font-family: "Courier";
+    overflow: hidden;
+    width: 25.7em;
+    -webkit-animation: type3 4s steps(35, end);
+    animation: type3 4s steps(35, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  #typeWriterDiv {
+    margin-top: 200px;
+    /* font-size: 20px; */
+    border-right: 0.10em solid red;
+    text-indent: 12px;
+    font-family: "Courier";
+    overflow: hidden;
+    width: 4.7em;
+    -webkit-animation: type .5s steps(35, end);
+    animation: type .5s steps(35, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  #typeWriterDivLast {
+    /* font-size: 20px; */
+    text-indent: 12px;
+    font-family: "Courier";
+    overflow: hidden;
+    width: 5.4em;
+    -webkit-animation: type2 4.5s steps(35, end);
+    animation: type2 4.5s steps(35, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+  35% {
+    width: 0;
+  }
+  60% {
+    border-right: 0.15em solid red;
+  }
+  100% {
+      border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+      width: 0;
+  }
+  85% {
+    width: 0;
+  }
+99.9% {
+  border-right: 0.15em solid red;
+}
+100% {
+    border: none;
+}
+}
+
+@keyframes type3 {
+  0% {
+      width: 0;
+  }
+  50% {
+    width: 0;
+  }
+99.9% {
+  border-right: 0.15em solid red;
+}
+100% {
+    border: none;
+}
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+#quoteOfDay {
+    font-size: 12px;
+    margin: 10px;
+    text-align: justify;
+    bottom: 50px;
+    position: fixed;
+    padding-right: 300px;
+    flex: 1;
+    display: flex;
+}
+
+#languages {
+  color: gray;
+  margin: 30px;
+  opacity: 0;
+  animation: fadeIn 5s forwards;
+  animation-delay: 4s;
+  display: flex;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  99.9% {
+    opacity: 50;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .nums {
+    font-size: 18px;
+  }
+  #typeWriter {
+    width: 27.2em;
+  }
+  #typeWriter2 {
+    width: 25.9em;
+  }
+  #typeWriterDiv {
+    width: 4.9em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .nums {
+    font-size: 16px;
+  }
+  #typeWriter{
+    width: 27.4em;
+  }
+  #typeWriter2 {
+    width: 26.2em;
+  }
+  #typeWriterDiv {
+    width: 5em;
+  }
+  #typeWriterDivLast {
+    width: 5.5em;
+  }
+}
