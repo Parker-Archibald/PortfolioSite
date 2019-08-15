@@ -9,17 +9,26 @@ class HomeCode extends Component {
   };
 
   componentDidMount = () => {
-    fetch("http://quotes.stormconsultancy.co.uk/random.json")
+  //   fetch("http://quotes.stormconsultancy.co.uk/random.json")
+  //     .then(response => {
+  //       return response.json();
+  //     })
+  //     .then(myJson => {
+  //       this.setState({
+  //         author: myJson.author,
+  //         quote: myJson.quote,
+  //         site: myJson.permalink
+  //       });
+  //     });
+
+      fetch('https://geek-jokes.sameerkumar.website/api')
       .then(response => {
         return response.json();
+      }).then(myJson => {
+        console.log(myJson);
+        this.setState({quote: myJson})
       })
-      .then(myJson => {
-        this.setState({
-          author: myJson.author,
-          quote: myJson.quote,
-          site: myJson.permalink
-        });
-      });
+
   };
 
   render() {
@@ -45,9 +54,12 @@ class HomeCode extends Component {
             <div>
               <p id="languages">Html5 | Css3 | Javascript | React | MongoDB</p>
             </div>
-            <div id="quoteOfDay">
+            {/* <div id="quoteOfDay">
               {this.state.author} said: <br />"{this.state.quote}" <br />
               {this.state.site}
+            </div> */}
+            <div id='quoteOfDay'>
+              "{this.state.quote}"
             </div>
           </div>
         </body>
