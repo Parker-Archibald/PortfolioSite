@@ -1,0 +1,69 @@
+#portback {
+    background-color: #1f1f1f;
+    margin-top: -20px;
+    height: 1000px;
+}
+
+#proj1 {
+background-image: url('../Style/pics/PortPic.png'); 
+background-size: 500px 300px; 
+box-shadow: 6px 5px 15px 1px black;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  margin: 20px;
+  margin-top: 60px;
+}
+
+#proj1:hover {
+  box-shadow: 2px 0px 8px 7px gray;
+}
+
+#proj2 {
+  background-image: url('../Style/pics/PortPic1.png');
+  background-size: 350px 300px;
+  box-shadow: 6px 5px 15px 1px black;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  margin: 20px;
+  margin-left: 380px;
+  margin-top: -318px;
+}
+
+#proj2:hover {
+    box-shadow: 2px 0px 8px 7px gray;
+}
+
+#proj3 {
+    background-color: green;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  margin-left: 750px;
+  margin-top: -318px;
+}
+
+#proj3:hover {
+    box-shadow: 2px 0px 8px 7px gray;
+}
+
+#proj4 {
+    background-color: yellow;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+#proj4:hover {
+    box-shadow: 2px 0px 8px 7px gray;
+}
+
+.darkProj {
+  opacity: .6;
+}
+
+.lightProj {
+  opacity: 1;
+}

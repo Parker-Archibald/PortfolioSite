@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import NavBar from '../Components/Nav'
-import '../Style/NavStyles.css'
+import '../Style/PortStyle.css';
+import Proj1 from '../Components/Proj1';
 
 class PortfolioPage extends Component {
     render() {
         return(
-            <div>
+            <div id='portback'>
                 <p>
                     Portfolio
+                    <Proj1/>
                 </p>
             </div>
         )

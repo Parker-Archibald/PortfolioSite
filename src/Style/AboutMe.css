@@ -1,3 +1,22 @@
 #abt {
-    background-color: gray;
+    background-color: #1f1f1f;
+    height: 1000px;
+    width: 1600px;
+    position: fixed;
+}
+
+#abtPic {
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 600px;
+
+}
+
+#title {
+    font-family: batmanforeveralternate;
+    font-size: 60px;
+    color: blue;
+    text-shadow: 3px 2px 6px black;
 }

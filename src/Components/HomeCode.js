@@ -9,6 +9,9 @@ class HomeCode extends Component {
   };
 
   componentDidMount = () => {
+
+//another api for quotes
+
   //   fetch("http://quotes.stormconsultancy.co.uk/random.json")
   //     .then(response => {
   //       return response.json();
@@ -25,7 +28,6 @@ class HomeCode extends Component {
       .then(response => {
         return response.json();
       }).then(myJson => {
-        console.log(myJson);
         this.setState({quote: myJson})
       })
 

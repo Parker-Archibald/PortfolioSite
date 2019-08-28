@@ -13,6 +13,50 @@ input {
     padding: 0 20px;
     box-sizing: border-box;
 }
-input[placeholder=name] {
-    border: yellow;
+
+#nameForm {
+    width: 250px;
 }
+
+#emailForm{
+    width: 250px;
+}
+
+#subjectForm {
+    width: 520px;
+}
+
+#messageForm {
+    width: 520px;
+    height: 200px;
+}
+
+ #field {
+     background-color: #282828;
+     margin-top: 200px;
+     margin-left: 20px;
+     width: 580px;
+     height: 420px;
+     animation: shadAn 3s forwards;
+ }
+
+
+ #hold {
+     background-color: black;
+     width: 700px;
+     height: 500px;
+     margin-left: 700px;
+     margin-top: -400px;
+ }
+
+ @keyframes shadAn {
+     0% {
+        box-shadow: 6px 5px 15px 1px black;
+     }
+     50% {
+        box-shadow: 15px 20px 100px 4px blue;
+     }
+     100% {
+        box-shadow: 6px 5px 15px 1px black;
+     }
+ }
