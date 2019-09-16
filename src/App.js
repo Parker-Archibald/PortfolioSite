@@ -7,10 +7,10 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import Routes from './Config/Routes'
 
 function App() {
+  document.title='Parker Archibald'
   return (
     <div>
     <div className="App">
-    {document.title='Parker Archibald'}
     <Router>
         <NavBar/>
         <Routes/>
