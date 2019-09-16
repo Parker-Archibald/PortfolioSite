@@ -8,10 +8,7 @@ class ContactMePage extends Component {
     return (
       <body>
         <div>
-          <p>
-            Contact Me
             <ContactMe />
-          </p>
         </div>
       </body>
     );

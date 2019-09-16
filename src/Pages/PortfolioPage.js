@@ -6,10 +6,7 @@ class PortfolioPage extends Component {
     render() {
         return(
             <div id='portback'>
-                <p>
-                    Portfolio
-                    <Proj1/>
-                </p>
+            <div><Proj1/></div>   
             </div>
         )
     }

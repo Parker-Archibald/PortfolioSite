@@ -9,14 +9,24 @@
     border: 2px solid black;
     width: 400px;
     height: 300px;
-    margin-top: 100px;
-    margin-left: 600px;
-
+    /* margin-top: 100px;
+    margin-left: 600px; */
+    position: relative;
+    right: -1000px;
+    top: 100px;
 }
 
 #title {
     font-family: batmanforeveralternate;
     font-size: 60px;
-    color: blue;
     text-shadow: 3px 2px 6px black;
+    text-align: center;
+}
+
+#abtMeDesc {
+    width: 800px;
+    margin-left: 100px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
 }

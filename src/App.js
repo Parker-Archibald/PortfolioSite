@@ -10,6 +10,7 @@ function App() {
   return (
     <div>
     <div className="App">
+    {document.title='Parker Archibald'}
     <Router>
         <NavBar/>
         <Routes/>
