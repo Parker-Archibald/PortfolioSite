@@ -111,7 +111,7 @@
     }
   }
 
-  @media only screen and (max-width: 75mm) {
+  @media only screen and (max-width: 74mm) {
     .hover{
       margin-left: g500px;
     }

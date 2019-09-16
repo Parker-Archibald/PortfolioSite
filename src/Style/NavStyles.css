@@ -52,7 +52,7 @@ body {
     /* text-shadow: 3px 2px #818181; */
   }
 
-  @media only screen and (max-width: 75mm) {
+  @media only screen and (max-width: 74mm) {
     #letters {margin: -18px;}
     .sidenav{width: 400px;}
   }
