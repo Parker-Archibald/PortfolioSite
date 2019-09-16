@@ -157,7 +157,30 @@ div {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 75mm) {
+  .nums {
+    font-size: 13px;
+  }
+  #typeWriter{
+    width: 27.4em;
+  }
+  #typeWriter2 {
+    width: 26.2em;
+  }
+  #typeWriterDiv {
+    width: 5em;
+  }
+  #typeWriterDivLast {
+    width: 5.5em;
+  }
+
+  #quoteOfDay {
+    bottom: 100px;
+  }
+}
+
+/* @media only screen and (max-width: 1200px) {
   .nums {
     font-size: 18px;
   }
@@ -173,22 +196,4 @@ div {
   #quoteOfDay {
     padding-right: 500px;
   }
-}
-
-@media only screen and (max-width: 700px) {
-  .nums {
-    font-size: 16px;
-  }
-  #typeWriter{
-    width: 27.4em;
-  }
-  #typeWriter2 {
-    width: 26.2em;
-  }
-  #typeWriterDiv {
-    width: 5em;
-  }
-  #typeWriterDivLast {
-    width: 5.5em;
-  }
-}
+} */

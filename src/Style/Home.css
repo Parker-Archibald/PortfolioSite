@@ -33,15 +33,16 @@
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    #btn{margin-left: -460px;}
-    #projectsBtn{margin-left: -250px;}
-}
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 375mm) {
     #btn{
         margin-left: -880px;
         margin-top: 580px;
     } 
+
+@media only screen and (max-width: 1200px) {
+    #btn{margin-left: -875px; margin-right: -40px;}
+}
+
     #projectsBtn{
         margin-left: -450px;
         margin-top: 580px

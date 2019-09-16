@@ -2,22 +2,20 @@
     background-image: url('./pics/code..jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 800px;
     width: 1600px;
     position: fixed;
     opacity: .9;
   }
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 700px) {
     .Pic {
-      width: 1200px;
+      display: flex;
     }
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1200px) {
     .Pic {
-      width: 700px;
-      height: 800px;
-      display: flex;
+      width: 1200px;
     }
   }

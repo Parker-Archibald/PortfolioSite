@@ -111,14 +111,13 @@
     }
   }
 
+  @media only screen and (max-width: 75mm) {
+    .hover{
+      margin-left: 500px;
+    }
+  }
+
   @media only screen and (max-width: 1200px) {
     .hover{margin-left: 550px;}
     .hover:hover{margin-left:540px;}
-  }
-
-  @media only screen and (max-width: 700px) {
-    .hover{
-      margin-left: 500px;
-      /* margin-top: -178px; */
-    }
   }
