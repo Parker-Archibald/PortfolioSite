@@ -8,7 +8,7 @@
     opacity: .9;
   }
 
-  @media only screen and (max-width: 50mm) {
+  @media only screen and (max-width: 360px) {
     .Pic {
       display: flex;
     }
