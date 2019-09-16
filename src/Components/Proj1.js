@@ -21,7 +21,7 @@ class Proj1 extends Component {
 
   handleProj1 = e => {
     e.preventDefault();
-    window.location.href = "http://localhost:3000/";
+    window.location.href = "https://parker-archibald.herokuapp.com/";
   };
 
   handleProj2 = e => {
