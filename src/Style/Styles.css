@@ -156,7 +156,7 @@ div {
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 74.1mm) {
   .nums {
     font-size: 13px;
   }
