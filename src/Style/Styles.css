@@ -132,8 +132,6 @@ div {
     bottom: 50px;
     position: fixed;
     padding-right: 800px;
-    flex: 1;
-    display: flex;
 }
 
 #languages {
@@ -158,7 +156,7 @@ div {
 }
 
 
-@media only screen and (max-width: 75mm) {
+@media only screen and (max-width: 100mm) {
   .nums {
     font-size: 13px;
   }
@@ -177,6 +175,7 @@ div {
 
   #quoteOfDay {
     bottom: 100px;
+    padding-right: 40px;
   }
 }
 
