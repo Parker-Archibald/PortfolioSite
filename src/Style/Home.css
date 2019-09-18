@@ -33,7 +33,7 @@
     }
 }
 
-@media only screen and (max-width: 375mm) {
+@media only screen and (max-width: 600px) {
     #btn{
         margin-left: -880px;
         margin-top: 580px;

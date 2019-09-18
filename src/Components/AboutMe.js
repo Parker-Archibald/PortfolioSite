@@ -6,7 +6,7 @@ class AboutMe extends Component {
     return (
       <div>
         <div id='title'>About me</div>
-        <div id="abtPic">Pic of me:)</div>
+        <div id="abtPic"/>
         <div id='abtMeDesc'>Parker is a young music enthusiast who is super passionate about technology.
           He is a detail oriented developer well versed in structuring, developing and implmenting interactive
           websites with experience in Object Oriented and Procedural programming,
