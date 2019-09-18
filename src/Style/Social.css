@@ -113,8 +113,11 @@
 
   @media only screen and (max-width: 600px){
     .hover{
-      margin-left: 500px;
       margin-top: -180px;
+    }
+
+    #projectsWord, #socialWord {
+      font-size: 20px;
     }
   }
 

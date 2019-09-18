@@ -1,7 +1,7 @@
 #portback {
     background-color: #1f1f1f;
     display: flex;
-    height: 700px;
+    height: 100%;
 }
 
 #portTitle {
@@ -22,6 +22,7 @@ box-shadow: 6px 5px 15px 1px black;
   padding: 50px;
   margin: 20px;
   margin-top: 60px;
+  display: flex;
 }
 
 #proj1:hover {
@@ -38,6 +39,7 @@ box-shadow: 6px 5px 15px 1px black;
   margin: 20px;
   margin-left: 380px;
   margin-top: -318px;
+  display: flex;
 }
 
 #proj2:hover {
@@ -50,4 +52,21 @@ box-shadow: 6px 5px 15px 1px black;
 
 .lightProj {
   opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  #portTitle {
+    margin-left: 150px;
+    font-size: 30px;
+  }
+
+  #proj1 {
+    margin-left: 100px;
+  }
+
+  #proj2 {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
 }

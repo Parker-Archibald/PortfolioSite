@@ -5,7 +5,7 @@ const Social = () => {
   return (
     <div class="hover">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-      <span>Socials</span>
+      <span id='socialWord'>Socials</span>
       <a class="social-link" href="">
         <i href ='#' class="fa fa-facebook" />
       </a>

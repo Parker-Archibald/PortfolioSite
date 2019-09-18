@@ -1,8 +1,7 @@
 #contactBack {
     background-color: #1f1f1f;
-    height: 800px;
+    height: 840px;
     display: fixed;
-    margin-bottom: -15px;
     border-top: .1px dotted black;
 }
 

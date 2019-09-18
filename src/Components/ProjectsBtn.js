@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ProjectsBtn = () => {
   return (
     <div class="hover">
-      <span>Projects</span>
+      <span id='projectsWord'>Projects</span>
       <a class="social-link" href="./Portfolio">
         <i href="#" class="fa fa-code" />
       </a>
