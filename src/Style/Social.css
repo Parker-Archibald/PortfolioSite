@@ -113,7 +113,8 @@
 
   @media only screen and (max-width: 600px){
     .hover{
-      margin-left: g500px;
+      margin-left: 500px;
+      margin-top: -180px;
     }
   }
 
