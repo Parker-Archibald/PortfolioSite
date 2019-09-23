@@ -41,17 +41,6 @@ textarea[type=text]:focus {
     width: 670px;
 }
 
-@media only screen and (max-width: 600px) {
-    #nameForm, #emailForm {
-        width: 440px;
-    }
-
-    #textarea {
-        min-width: 440px;
-        max-width: 440px;
-    }
-}
-
  #field {
      background-color: #282828;
      margin-top: 200px;
@@ -82,3 +71,25 @@ textarea[type=text]:focus {
         box-shadow: 6px 5px 15px 1px black;
      }
  }
+
+ 
+
+ @media only screen and (max-width: 600px) {
+    textarea {
+        min-width: 320px;
+        max-width: 320px;
+    }
+
+    #nameForm {
+        width: 320px;
+    }
+
+    #emailForm {
+        width: 320px;
+    }
+
+    #field {
+        width: 345px;
+        margin-left: 30px;
+    }
+}

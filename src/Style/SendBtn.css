@@ -33,6 +33,17 @@
     margin-top: 636px;
 }
 
+@media only screen and (max-width: 600px) {
+    .btn {
+        margin-left: 180px;
+        margin-top: 610px;
+    }
+    .bg {
+        margin-left: 191px;
+        margin-top: 621px;
+    }
+}
+
 .bg2 {
     animation: fadeIn 2s forwards;
     animation-delay: 1s;

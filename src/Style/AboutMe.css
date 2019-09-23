@@ -1,16 +1,17 @@
 #abt {
     background-color: #1f1f1f;
-    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 #abtPic {
     background-image: url('../Style/pics/ME.jpg');
-   background-position: absolute;
-   margin-top: 300px;
-   margin-left: 400px;
-   background-repeat: no-repeat;
-   background-size: 40%;
-   height: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 500px;
+    margin-left: 800px;
    transform: rotate(90deg);
 }
 
@@ -31,19 +32,15 @@
 
 @media only screen and (max-width: 600px) {
     #abtMeDesc {
-        width: 150px;
-        margin-left: 20px;
-        text-align: left;
+        width: 350px;
+        margin-left: 35px;
+        margin-top: 250px;
+        text-align: center;
     }
-
     #abtPic {
-        margin-left: -300px;
-        margin-top: 100px;
-        margin-right: -20px;
-        background-size: 40%;
-    }
-    
-    #title {
-        margin-left: 80px;
+        margin-left: 20px;
+        margin-top: 30px;
+        height: 300px;
+        width: 300px;
     }
 }

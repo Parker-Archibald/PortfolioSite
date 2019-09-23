@@ -9,7 +9,7 @@ class ContactMe extends Component {
     state = {
       from_name: "",
       from_email: "",
-      to_name: "parkerarchibald97@gmail.com",
+      to_name: "Parker",
       message_html: "",
       service_id: "gmail",
       template_id: "template_Ez0QEckY"

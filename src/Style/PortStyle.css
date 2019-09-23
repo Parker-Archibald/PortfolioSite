@@ -1,7 +1,8 @@
 #portback {
     background-color: #1f1f1f;
-    display: flex;
+    position: fixed;
     height: 100%;
+    width: 100%;
 }
 
 #portTitle {
@@ -56,17 +57,17 @@ box-shadow: 6px 5px 15px 1px black;
 
 @media only screen and (max-width: 600px) {
   #portTitle {
-    margin-left: 150px;
+    margin-left: 90px;
     font-size: 30px;
   }
 
   #proj1 {
-    margin-left: 100px;
+    margin-left: 60px;
   }
 
   #proj2 {
     margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-bottom: 80px;
   }
 }

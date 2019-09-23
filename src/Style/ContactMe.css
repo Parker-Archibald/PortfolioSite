@@ -1,8 +1,8 @@
 #contactBack {
     background-color: #1f1f1f;
-    height: 840px;
-    display: fixed;
-    border-top: .1px dotted black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 #contactTitle {
@@ -18,4 +18,17 @@
 #contactDesc {
     font-size: 20px;
     margin: 180px 0px -180px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #contactTitle {
+        margin-left: 40px;
+    }
+
+    #contactDesc {
+        width: 350px;
+        text-align: center;
+    }
+
+    
 }
