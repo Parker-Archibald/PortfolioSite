@@ -1,15 +1,14 @@
 #contactBack {
     background-color: #1f1f1f;
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
 }
 
 #contactTitle {
     font-size: 40px;
-    text-align: center;
     width: 300px;
-    margin: 80px 0px -170px 200px;
+    margin: 80px 0px -170px 600px;
     font-family: batmanforeveralternate;
     font-size: 60px;
     text-shadow: 3px 2px 6px black;
@@ -17,17 +16,20 @@
 
 #contactDesc {
     font-size: 20px;
-    margin: 180px 0px -180px 20px;
+    margin: 180px 0px -180px 400px;
 }
 
 @media only screen and (max-width: 600px) {
     #contactTitle {
-        margin-left: 40px;
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 40px;
     }
 
     #contactDesc {
         width: 350px;
         text-align: center;
+        margin-left: 30px;
     }
 
     

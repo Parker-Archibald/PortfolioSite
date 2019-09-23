@@ -44,20 +44,10 @@ textarea[type=text]:focus {
  #field {
      background-color: #282828;
      margin-top: 200px;
-     margin-left: 20px;
+     margin-left: 400px;
      width: 700px;
      height: 420px;
      animation: shadAn 3s forwards;
-     margin-bottom: 200px;
- }
-
-
- #hold {
-     background-color: black;
-     width: 700px;
-     height: 500px;
-     margin-left: 800px;
-     margin-top: -600px;
  }
 
  @keyframes shadAn {

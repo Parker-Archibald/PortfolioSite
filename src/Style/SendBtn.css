@@ -17,8 +17,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    margin-left: 350px;
-    margin-top: 625px;
+    margin-left: 745px;
+    margin-top: 562px;
 }
 
 .bg {
@@ -29,18 +29,18 @@
     bottom: 0;
     left: 0;
     right: 0;
-    margin-left: 361px;
-    margin-top: 636px;
+    margin-left: 756px;
+    margin-top: 573px;
 }
 
 @media only screen and (max-width: 600px) {
     .btn {
         margin-left: 180px;
-        margin-top: 610px;
+        margin-top: 570px;
     }
     .bg {
         margin-left: 191px;
-        margin-top: 621px;
+        margin-top: 581px;
     }
 }
 

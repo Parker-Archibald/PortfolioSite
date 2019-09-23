@@ -64,8 +64,6 @@ class ContactMe extends Component {
             />
           </div>
         </div>
-
-        <div id="hold">Pic maybe, idk</div>
       </div>
     );
   }
